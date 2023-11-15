@@ -1,0 +1,62 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+li.rounded {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 1rem;
+    margin-bottom: 0.3rem;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+li.rounded:hover{
+    opacity: 1;
+}
+
+
+.movie {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa.fa-star{
+    color: white;
+}
+
+.checked{
+    color: orange !important;
+}
+
+.offcanvas {
+    overflow: visible !important; /* Puedes probar con "visible" o "unset" */
+}
+
+.offcanvas-body {
+    overflow: visible !important; /* Puedes probar con "visible" o "unset" */
+}
